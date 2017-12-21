@@ -9,9 +9,9 @@ b="";for(f in k)b+=f+"="+encodeURIComponent(k[f])+"&";(new Image).src="/home/jse
 //]]>
 </script>
 <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-<script src="js/signup.js"></script>
 
-    <title>Sign up | ASKfm Clone</title>
+
+    <title>Sign up | ASKfm</title>
     <meta name="description" content="Find out what people want to know about you. Ask questions and get answers on any topic!" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
     <meta name="csrf-param" content="authenticity_token" />
@@ -28,14 +28,13 @@ b="";for(f in k)b+=f+"="+encodeURIComponent(k[f])+"&";(new Image).src="/home/jse
 <div id="loaderMother" style="display:none"></div>
     <header id="topMenu" class="topMenu">
 
-      <div class="rsp-eql-desktop">
-  <section class="topBar rsp-container">
-    <a class="icon-askfm-logo topBar-left" href="/"></a>
-
-
+    <div class="rsp-eql-desktop">
+    <section class="topBar rsp-container">
+        <div class="topBar-left">
+          <a class="btn-action plain" href="index.html">Back</a>
+        </div>
         <div class="topBar-right">
-            <a class="btn-action plain" href="/login">Log in</a>
-
+            <a class="btn-action plain" href="login.html">Log in</a>
         </div>
           <h1>Sign up</h1>
 
@@ -46,10 +45,10 @@ b="";for(f in k)b+=f+"="+encodeURIComponent(k[f])+"&";(new Image).src="/home/jse
   <section class="topBar">
 
       <div class="topBar-left">
-          <a title="Back" class="btn-action-icon icon-back" href="/"></a>
+          <a title="Back" class="btn-action-icon icon-back" href="index.html"></a>
       </div>
       <div class="topBar-right">
-          <a class="btn-action plain" href="/login">Log in</a>
+          <a class="btn-action plain" href="login.html">Log in</a>
 
       </div>
         <h1>Sign up</h1>
@@ -325,15 +324,16 @@ b="";for(f in k)b+=f+"="+encodeURIComponent(k[f])+"&";(new Image).src="/home/jse
 
   <div class="captcha-container" style="display:none" data-url="/signup/captcha"></div>
 
-  <div class="simpleFormItem" id="signupFooter">
+
+
+</form>
+<div class="simpleFormItem" id="signupFooter">
     By signing up you agree to our <a target="_blank" rel="noopener" href="https://about.ask.fm/terms/?lang=en">Terms</a> and <a target="_blank" rel="noopener" href="https://about.ask.fm/privacy-policy/?lang=en">Privacy policy</a>
-    <input type="submit" class="btn-primary-wide" value="Sign up">
+    <button id="signupButton" class="btn-primary-wide" onclick="signUp()">Sign up</button>
     <p>
       Your name and any information posted on your profile will be visible to other users. Information you provide may be shared with third parties as explained in our <a target="_blank" rel="noopener" href="https://about.ask.fm/privacy-policy/?lang=en">Privacy policy</a>. Please don’t provide any information you don’t want to be shared.
     </p>
   </div>
-
-</form>
 
         </div>
       </div>
@@ -343,5 +343,6 @@ b="";for(f in k)b+=f+"="+encodeURIComponent(k[f])+"&";(new Image).src="/home/jse
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W5DVX4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <noscript><img src="//pixel.quantserve.com/pixel/p-r1DAFnUnQgqGA.gif?labels=_fp.event.Default" style="display:none;" border="0" height="1" width="1" alt="Quantcast"/></noscript>
+<script src="../js/signup.js"></script>
 </body>
 </html>
