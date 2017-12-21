@@ -1,0 +1,1497 @@
+<body class="theme-0 twoColumnBody lightbox-open" data-id="discovery/index" data-js-perf-url="/home/jsperf"><script>
+  window.Config && window.Config.init({"poller:interval":30000,"poller:cache_limit":10,"poller:title":true,"mass_ask_limit":50,"flash:delay":3000,"gtm":true,"uploader:max_size":8388608,"uploader:resize:enabled":false,"uploader:resize:max_size":13000000,"uploader:resize:max_dimension":2048,"page:category":"Discovery","page:type":"Index","page:user_id":"262d671ae4429c93bce8aee201d8514a"});
+</script>
+<div id="loaderMother" style="display: none;"></div>
+    <header id="topMenu" class="topMenu logged">
+
+      <div class="rsp-eql-desktop">
+  <section class="topBar rsp-container">
+    <a class="icon-askfm-logo topBar-left" href="/account/wall"></a>
+
+
+
+      <nav class="menuBar">
+  <a title="Feed" class="icon-tab-home active" href="/account/wall"></a>
+  <a title="Questions" class="icon-question-fill" href="/account/inbox"></a>
+  <a title="Profile" class="icon-tab-profile" href="/tester101_"></a>
+  <a title="Friends" class="icon-tab-friends" href="/account/friends"></a>
+  <a title="Notifications" class="icon-tab-notifications" href="/account/notifications">
+  <span class="notificationCounter" style="display:none" data-poll-url="/account/notifications/counts">0</span>
+</a>          <a title="Account" class="icon-settings icon-caret-down" data-action="MenuToggle" data-target="#settings-popover-menu" href="#"></a>
+        <nav id="settings-popover-menu" class="popover popover-menu" style="display:none">
+          <a href="/account/settings/profile">Settings</a>
+          <a data-action="ButtonPostOnce" data-url="/logout" href="#">Log Out</a>
+        </nav>
+        <a title="Select your activity" class="icon-create-content" data-action="MenuToggle" data-class="open" data-target="#content-popover-menu" href="#"></a><nav id="content-popover-menu" class="popover popover-menu content-menu" style="display:none"><a class="icon-photopoll-inverse icon util-clearfix" href="/account/photopoll-friends">Create poll</a><a class="icon-ask-question icon util-clearfix" href="/account/ask-friends">Ask a Question</a><a class="icon-shoutout icon util-clearfix shoutout-link" href="/account/shoutout">Shoutout<span class="icon-shoutout-lock"></span></a></nav>
+</nav>
+
+
+  </section>
+</div>
+
+<div class="rsp-lte-tablet rsp-container">
+  <section class="topBar">
+
+      <div class="topBar-left">
+          <a class="btn-action-icon icon-hamburger" title="Menu" data-action="PopupOpen" data-url="/home/menu" href="#"></a>
+      </div>
+      <div class="topBar-right">
+          <span class="right popover_container rsp-lte-tablet">
+    <a title="Select your activity" class="icon-create-content btn-action-icon" data-action="MenuToggle" data-class="open" data-target="#content-popover-menu-top" href="#"></a><nav id="content-popover-menu-top" class="popover popover-menu content-menu" style="display:none"><a class="icon-photopoll-inverse icon util-clearfix" href="/account/photopoll-friends">Create poll</a><a class="icon-ask-question icon util-clearfix" href="/account/ask-friends">Ask a Question</a><a class="icon-shoutout icon util-clearfix shoutout-link" href="/account/shoutout">Shoutout<span class="icon-shoutout-lock"></span></a></nav>  </span>
+
+      </div>
+        <a class="icon-askfm-logo" href="/account/wall"></a>
+
+  </section>
+  <nav class="menuBar">
+  <a title="Feed" class="icon-tab-home active" href="/account/wall"></a>
+  <a title="Questions" class="icon-question-fill" href="/account/inbox"></a>
+  <a title="Profile" class="icon-tab-profile" href="/tester101_"></a>
+  <a title="Friends" class="icon-tab-friends" href="/account/friends"></a>
+  <a title="Notifications" class="icon-tab-notifications" href="/account/notifications">
+  <span class="notificationCounter" style="display:none" data-poll-url="/account/notifications/counts">0</span>
+</a>
+</nav>
+
+</div>
+
+
+<div style="display:none" class="flash-message notice">
+  <p class="util-relative rsp-container">
+    <a href="" class="icon-close" data-action="FlashHide"></a>
+
+</p></div>
+
+</header>
+    <main id="contentArea" class="rsp-container">
+
+      <div class="main-content util-clearfix">
+        <div class="main-column util-clearfix">
+
+
+<section class="askBox section rsp-gte-tablet">
+
+  <header class="askBox_header">
+    <div class="icon-ask-question question-link">Question</div>    <a class="icon-photopoll photopoll-link" data-action="PopupOpen" data-url="/account/photopoll-friends" href="#">Photo poll</a>    <a data-action="PopupOpen" data-url="/account/shoutout" class="icon-shoutout-stroke shoutout-link" href="#">
+      Shoutout
+      <span class="icon-shoutout-lock">
+
+      </span>
+</a>  </header>
+
+  <form id="askForm" data-action="PopupOpen" action="/account/ask-friends" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put"><input type="hidden" name="authenticity_token" value="oHH8ODI8/AKj+CXyEgX0K8trs57LS9wz24fy/DelmyV38Z5R1BdUIlU+/xQzr7OLvQwjxvuCyy6zpppeMCEVlQ==">
+
+      <div class="question">
+        <input placeholder="What, when, why… ask" data-counter=".optionsBar-counter" data-limit="300" data-atcomplete="/account/friends/autocomplete" type="text" name="question[question_text]" id="question_question_text">
+      </div>
+
+      <div class="optionsBar">
+        <button name="button" type="submit" class="btn-primary icon-send"></button>
+
+        <div class="optionsBar-option optionsBar-counter"></div>
+        <input name="question[question_type]" type="hidden" value="user"><input id="mini_question_anonymous" class="btn-toggle-mini" type="checkbox" value="anonymous" checked="checked" name="question[question_type]">
+        <label for="mini_question_anonymous"><span>Ask anonymously</span></label>
+      </div>
+</form></section>
+
+
+
+
+  <section>
+    <header>
+  <div class="tabBar feedTabBar_wrapper">
+  <nav class="tabBar feedTabBar">
+        <a class="" href="/account/wall">Wall</a>
+        <a class="active" data-poll-url="/account/discover/poll" href="/account/discover">Discover</a>
+  </nav>
+</div>
+
+</header>
+        <div class="discoveryWelcome">
+  <div class="title">Look around</div>
+  <div class="subTitle">Now it’s easy to find trending questions and answers.</div>
+  <a class="icon-close closeBanner" href=""></a>
+
+  <a class="icon-close closeBanner" data-action="DiscardBanner" data-url="/account/discover/welcome_discard" href="#"></a>
+</div>
+
+
+      <div class="item-pager">
+        <div class="item-page">
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Ano po yung app na may date stamp sa picture?</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/a16/e2443/1c40/4917/8204/93b287c30372/thumb/174254.jpg)" class="userAvatar" href="/IshiTran"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-117 userOnline" href="/IshiTran">DAY DREAMER 뚱</a></span>
+        <a title="December 20, 2017 05:50:10 GMT" class="streamItem_meta" href="/IshiTran/answers/144022507223"><time datetime="2017-12-20T05:50:10">yesterday</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Yung ganito? Huji.
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+    <div class="streamItem_visual">  <div><a data-action="ImageOpen" data-url="https://akphoto1.ask.fm/678/4636a/8015/4088/914c/7dc2da59cfc3/large/158430.jpg" href="/IshiTran/answers/144022507223/photo"><img onerror="this.src='https://static.ask.fm/assets/no-image-0b30a778d766680b5d174333c571a1fa4189ffded12bc17da057d8de0900f032.png';this.onerror=''" src="https://akphoto1.ask.fm/678/4636a/8015/4088/914c/7dc2da59cfc3/original/158430.jpg"></a></div>
+</div>
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/IshiTran/answers/144022507223/likes" href="#"></a>
+
+  <a class="counter" href="/IshiTran/answers/144022507223">33</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/IshiTran/answers/144022507223/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Ano po yung app na may date stamp sa picture?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Ano po yung app na may date stamp sa picture?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/IshiTran/answers/144022507223/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer">
+  <header class="streamItem_header">
+    <h2>left vs right</h2>
+  </header>
+
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/aa0/7fc86/eca9/486b/98a3/5bd8dd89c5d3/thumb/82290.jpg)" class="userAvatar" href="/allegutennutzernamensindweg"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="" href="/allegutennutzernamensindweg">Everybody♋</a></span>
+        <a title="December 20, 2017 16:49:02 GMT" class="streamItem_meta" href="/allegutennutzernamensindweg/photopolls/80835027"><time datetime="2017-12-20T16:49:02">about 14 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_visual photopoll">
+    <div class="choices choice-1" id="option-161669587" style="background-image:url(https://akpoll0.ask.fm/84c/836c7/4b83/416f/9262/084f29e75d8b/original/169238.png)" data-option-id="161669587">
+
+  <a class="util-overlay-transparent" data-action="ImagesOpen" data-urls="{&quot;https://akpoll0.ask.fm/84c/836c7/4b83/416f/9262/084f29e75d8b/thumb/169238.png&quot;:&quot;https://akpoll0.ask.fm/84c/836c7/4b83/416f/9262/084f29e75d8b/original/169238.png&quot;,&quot;https://akpoll0.ask.fm/481/41d7f/6bd7/423b/8693/3cc3fa74bf1f/thumb/169643.png&quot;:&quot;https://akpoll0.ask.fm/481/41d7f/6bd7/423b/8693/3cc3fa74bf1f/original/169643.png&quot;}" data-open-url="https://akpoll0.ask.fm/84c/836c7/4b83/416f/9262/084f29e75d8b/thumb/169238.png" href="/allegutennutzernamensindweg/photopolls/80835027"></a>
+
+          <a class="icon-like vote" title="Like" data-action="PhotopollVote" data-url="/account/photopoll-vote/161669587" href="#"></a>
+
+      <div class="ratingBlock">
+        <div class="rating icon-like"></div>
+      </div>
+</div>
+
+    <div class="choices choice-2" id="option-161669843" style="background-image:url(https://akpoll0.ask.fm/481/41d7f/6bd7/423b/8693/3cc3fa74bf1f/original/169643.png)" data-option-id="161669843">
+
+  <a class="util-overlay-transparent" data-action="ImagesOpen" data-urls="{&quot;https://akpoll0.ask.fm/84c/836c7/4b83/416f/9262/084f29e75d8b/thumb/169238.png&quot;:&quot;https://akpoll0.ask.fm/84c/836c7/4b83/416f/9262/084f29e75d8b/original/169238.png&quot;,&quot;https://akpoll0.ask.fm/481/41d7f/6bd7/423b/8693/3cc3fa74bf1f/thumb/169643.png&quot;:&quot;https://akpoll0.ask.fm/481/41d7f/6bd7/423b/8693/3cc3fa74bf1f/original/169643.png&quot;}" data-open-url="https://akpoll0.ask.fm/481/41d7f/6bd7/423b/8693/3cc3fa74bf1f/thumb/169643.png" href="/allegutennutzernamensindweg/photopolls/80835027"></a>
+
+          <a class="icon-like vote" title="Like" data-action="PhotopollVote" data-url="/account/photopoll-vote/161669843" href="#"></a>
+
+      <div class="ratingBlock">
+        <div class="rating icon-like"></div>
+      </div>
+</div>
+
+    <div class="vs">vs</div>
+  </div>
+
+  <div class="streamItem_footer popover_container">
+    <a class="voteCount" href="/allegutennutzernamensindweg/photopolls/80835027">340 votes</a>
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/allegutennutzernamensindweg/photopolls/80835027/flag" href="#">Report post</a></nav>
+
+  </div>
+
+</article>
+
+
+    <section class="streamItem streamItem-pyml">
+  <a title="Settings" class="streamItem_corner icon-tune" href="/account/settings/profile#interest_settings"></a>
+  <header class="streamItem_header">
+    <h2 class="icon-interest">People you may like</h2>
+  </header>
+  <a href="#" class="icon-caret-left" data-action="PymlPrev" style="display:none"></a>
+  <a href="#" class="icon-caret-right" data-action="PymlNext" style="display:none"></a>
+  <div class="pyml-items">
+
+    <div class="pyml-hashtags">
+      <span class="null">Want to make more friends? Try this:</span>
+      <span>Tell us what you like and find people with the same interests. Try this:</span>
+      <div class="hashtags">
+        <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;pop&quot;}" href="">#pop</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;books&quot;}" href="">#books</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;sport&quot;}" href="">#sport</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;dance&quot;}" href="">#dance</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;basketball&quot;}" href="">#basketball</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;party&quot;}" href="">#party</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;games&quot;}" href="">#games</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;football&quot;}" href="">#football</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;cars&quot;}" href="">#cars</a> <a data-action="PymlHashtagCreate" data-url="/account/pyml/hashtags" data-params="{&quot;hashtag&quot;:&quot;anime&quot;}" href="">#anime</a>
+      </div>
+      <a class="null" href="/account/settings/profile#interest_settings">+ add more interests</a>
+      <a href="/account/settings/profile#interest_settings">+ add your interests</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Are you allergic to something?</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/4a1/869c1/891c/4e73/9246/2a0ff16c1fae/thumb/3327471.jpg)" class="userAvatar" href="/ShadabSki"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-17 userOnline userVerified" dir="rtl" href="/ShadabSki">شاداب</a></span>
+        <a title="December 20, 2017 07:30:46 GMT" class="streamItem_meta" href="/ShadabSki/answers/145026278335"><time datetime="2017-12-20T07:30:46">about 23 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Bad metaphors, they always go over my head, I mean nothing goes over my head like bad metaphors, even if my reflexes are too fast enough to catch it.
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/ShadabSki/answers/145026278335/likes" href="#"></a>
+
+  <a class="counter" href="/ShadabSki/answers/145026278335">163</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/ShadabSki/answers/145026278335/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Are you allergic to something?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Are you allergic to something?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/ShadabSki/answers/145026278335/share" href="#"></a>
+  </div>
+
+</article>
+
+
+    <section class="askfm-ad-slot askfm-ad-slot-mobile-stream-1 rsp-eql-mobile" data-url="/ads/812" data-count-url="/home/track?ad_block_slot=812"><iframe src="javascript:false" name="ifm8893195003416743" style="border: 0px; width: 0px; height: 0px;" height="250" width="300"></iframe></section>
+
+
+    <section class="askfm-ad-slot askfm-ad-slot-desktop-stream-1 rsp-gte-tablet" data-url="/ads/912" data-count-url="/home/track?ad_block_slot=912"><iframe src="javascript:false" name="ifm5903824473684414" style="border:0;width:0;height:0"></iframe></section>
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>What is the best piece of advice you've ever received?👣</h2>
+    <a class="author" href="/itxmayo1"><span class="userAvatar-mini" style="background-image:url(https://akimg0.ask.fm/e8e/2c5ed/8f22/417e/b772/3358cc7bcb45/thumb/802448.png)"></span><span class="author_username">Salman Saleem</span></a>
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/346/50e8b/c9b5/470a/aff3/12fec67e8c12/thumb/422184.png)" class="userAvatar" href="/hardik34122"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-111 userOnline" href="/hardik34122">Hardik juneja</a></span>
+        <a title="December 20, 2017 14:11:09 GMT" class="streamItem_meta" href="/hardik34122/answers/144970413715"><time datetime="2017-12-20T14:11:09">about 16 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Marry someone who has a different taste in food than you so they won't eat all your food
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/hardik34122/answers/144970413715/likes" href="#"></a>
+
+  <a class="counter" href="/hardik34122/answers/144970413715">112</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/hardik34122/answers/144970413715/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;What is the best piece of advice you've ever received?👣&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;What is the best piece of advice you've ever received?👣&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/hardik34122/answers/144970413715/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>where are you from/what are you mixed with?</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/0af/da72c/8c0c/44bc/a249/d105a651a63b/thumb/8966.png)" class="userAvatar" href="/OfficialParisaTarjomani"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-78" href="/OfficialParisaTarjomani">P A R I S A</a></span>
+        <a title="December 20, 2017 19:25:59 GMT" class="streamItem_meta" href="/OfficialParisaTarjomani/answers/143366261238"><time datetime="2017-12-20T19:25:59">about 11 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    I said it before but okay. I'm from London and I'm half korean girl and half american as well. 💐
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/OfficialParisaTarjomani/answers/143366261238/likes" href="#"></a>
+
+  <a class="counter" href="/OfficialParisaTarjomani/answers/143366261238">88</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/OfficialParisaTarjomani/answers/143366261238/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;where are you from/what are you mixed with?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;where are you from/what are you mixed with?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/OfficialParisaTarjomani/answers/143366261238/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Are you allergic to something?</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/06b/85206/4841/4b0e/a3e7/61c93b859726/thumb/174637.png)" class="userAvatar" href="/user7770"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-102" href="/user7770">E.E</a></span>
+        <a title="December 20, 2017 05:32:29 GMT" class="streamItem_meta" href="/user7770/answers/143631924952"><time datetime="2017-12-20T05:32:29">yesterday</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Some insects and the spicy and salty dishes 😫
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/user7770/answers/143631924952/likes" href="#"></a>
+
+  <a class="counter" href="/user7770/answers/143631924952">88</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/user7770/answers/143631924952/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Are you allergic to something?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Are you allergic to something?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/user7770/answers/143631924952/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Post something?😇</h2>
+    <a class="author userVerified" href="/Hiffaz"><span class="userAvatar-mini" style="background-image:url(https://akimg0.ask.fm/7a2/3ccef/8c56/46ca/be2d/31d337b78e72/thumb/855649.png)"></span><span class="author_username">Hiffαww'Z♊</span></a>
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/1bd/841fa/90d2/463d/b898/798a3c5a0ab2/thumb/7774730.jpg)" class="userAvatar" href="/Swaggagurl"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class=" userVerified" href="/Swaggagurl">Jʉʂƭ Mҿ(♥♥)</a></span>
+        <a title="December 20, 2017 16:03:03 GMT" class="streamItem_meta" href="/Swaggagurl/answers/143738943798"><time datetime="2017-12-20T16:03:03">about 15 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    - Never judge a person from his/her beauty as it will fade,<br>but from their personality as at the end that's what shall remain. ^-^
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+    <div class="streamItem_visual">  <div><a data-action="ImageOpen" data-url="https://akphoto1.ask.fm/a65/cebca/10e0/4bff/8a75/fbeb03077d19/large/168466.png" href="/Swaggagurl/answers/143738943798/photo"><img onerror="this.src='https://static.ask.fm/assets/no-image-0b30a778d766680b5d174333c571a1fa4189ffded12bc17da057d8de0900f032.png';this.onerror=''" src="https://akphoto1.ask.fm/a65/cebca/10e0/4bff/8a75/fbeb03077d19/original/168466.png"></a></div>
+</div>
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/Swaggagurl/answers/143738943798/likes" href="#"></a>
+
+  <a class="counter" href="/Swaggagurl/answers/143738943798">90</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/Swaggagurl/answers/143738943798/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Post something?😇&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Post something?😇&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/Swaggagurl/answers/143738943798/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer">
+  <header class="streamItem_header">
+    <h2>You are Mountain person or Beach person?</h2>
+  </header>
+
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/94e/33e71/eddd/4225/b8d3/e14ff9af0e38/thumb/975063.png)" class="userAvatar" href="/MuhIkram"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-5" href="/MuhIkram">ig:  muhammadikram18</a></span>
+        <a title="December 21, 2017 01:03:55 GMT" class="streamItem_meta" href="/MuhIkram/photopolls/80337746"><time datetime="2017-12-21T01:03:55">about 6 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_visual photopoll">
+    <div class="choices choice-1" id="option-160673618" style="background-image:url(https://akpoll0.ask.fm/a28/900d2/faee/40ee/b3e0/85d95fc3f8ed/original/181366.png)" data-option-id="160673618">
+
+  <a class="util-overlay-transparent" data-action="ImagesOpen" data-urls="{&quot;https://akpoll0.ask.fm/a28/900d2/faee/40ee/b3e0/85d95fc3f8ed/thumb/181366.png&quot;:&quot;https://akpoll0.ask.fm/a28/900d2/faee/40ee/b3e0/85d95fc3f8ed/original/181366.png&quot;,&quot;https://akpoll0.ask.fm/b02/e5a2b/5907/457d/b79d/d6a6877a8434/thumb/181486.png&quot;:&quot;https://akpoll0.ask.fm/b02/e5a2b/5907/457d/b79d/d6a6877a8434/original/181486.png&quot;}" data-open-url="https://akpoll0.ask.fm/a28/900d2/faee/40ee/b3e0/85d95fc3f8ed/thumb/181366.png" href="/MuhIkram/photopolls/80337746"></a>
+
+          <a class="icon-like vote" title="Like" data-action="PhotopollVote" data-url="/account/photopoll-vote/160673618" href="#"></a>
+
+      <div class="ratingBlock">
+        <div class="rating icon-like"></div>
+      </div>
+</div>
+
+    <div class="choices choice-2" id="option-160673874" style="background-image:url(https://akpoll0.ask.fm/b02/e5a2b/5907/457d/b79d/d6a6877a8434/original/181486.png)" data-option-id="160673874">
+
+  <a class="util-overlay-transparent" data-action="ImagesOpen" data-urls="{&quot;https://akpoll0.ask.fm/a28/900d2/faee/40ee/b3e0/85d95fc3f8ed/thumb/181366.png&quot;:&quot;https://akpoll0.ask.fm/a28/900d2/faee/40ee/b3e0/85d95fc3f8ed/original/181366.png&quot;,&quot;https://akpoll0.ask.fm/b02/e5a2b/5907/457d/b79d/d6a6877a8434/thumb/181486.png&quot;:&quot;https://akpoll0.ask.fm/b02/e5a2b/5907/457d/b79d/d6a6877a8434/original/181486.png&quot;}" data-open-url="https://akpoll0.ask.fm/b02/e5a2b/5907/457d/b79d/d6a6877a8434/thumb/181486.png" href="/MuhIkram/photopolls/80337746"></a>
+
+          <a class="icon-like vote" title="Like" data-action="PhotopollVote" data-url="/account/photopoll-vote/160673874" href="#"></a>
+
+      <div class="ratingBlock">
+        <div class="rating icon-like"></div>
+      </div>
+</div>
+
+    <div class="vs">vs</div>
+  </div>
+
+  <div class="streamItem_footer popover_container">
+    <a class="voteCount" href="/MuhIkram/photopolls/80337746">118 votes</a>
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/MuhIkram/photopolls/80337746/flag" href="#">Report post</a></nav>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/MuhIkram/photopolls/80337746/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer shorten">
+
+
+  <header class="streamItem_header">
+    <h2>ano ba ang mga traits ng tunay na lalaki?</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/86c/831a5/b2cb/4a53/a4d8/1997ef405516/thumb/799339.png)" class="userAvatar" href="/Jaysoncarlo"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-78" href="/Jaysoncarlo">Heaven</a></span>
+        <a title="December 20, 2017 10:15:04 GMT" class="streamItem_meta" href="/Jaysoncarlo/answers/145061898566"><time datetime="2017-12-20T10:15:04">about 20 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Ang tunay na lalaki..<hr>°Hindi nahihiyang magbitbit ng bag ng girlfriend nya.<br>°Marunong makuntento.<br>°Buo ang paninindigan.<br>°Hindi nahihiyang umiyak sa harap ng mga kaibigan.<br>°Marunong rumespeto ng karelasyon.<br>°Hindi hinahayaang umuwi na mag-isa ang girlfriend nya.<br>°Kayang protektahan ang babaeng mahal nya.<br>°Kung paano nya minamahal ang pamilya nya, ganun ang girlfriend nya.<br>°Sa iisang babae lang nya sinasabi yung words na "I love you"<br>°At hindi nya sinasaktan ang taong mahal nya, physically and emotionally.<hr>Kung itatanong nyo kung may mga lalaki pa bang katulad nyan at nag-eexist pa ba sila? Ang sagot ko e meron pa.. sila yung mga lalaking nasa tabi o paligid nyo lang, pero maaaring di nyo pinapansin o sadyang hindi nyo talaga napapansin. Dahil naka-focus lang ang paningin at isip nyo dun sa mga lalaking gusto at mahal nyo pero hindi naman kayang ibalik yung pagmamahal nyo.
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/Jaysoncarlo/answers/145061898566/likes" href="#"></a>
+
+  <a class="counter" href="/Jaysoncarlo/answers/145061898566">27</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/Jaysoncarlo/answers/145061898566/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;ano ba ang mga traits ng tunay na lalaki?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;ano ba ang mga traits ng tunay na lalaki?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/Jaysoncarlo/answers/145061898566/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Pap a handsome guy hihi</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/1c1/814bd/41c8/41ff/8aa2/1bd105ebec4a/thumb/185143.png)" class="userAvatar" href="/primaduna_"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-118 userOnline" href="/primaduna_">miss dynamite™</a></span>
+        <a title="December 20, 2017 09:16:50 GMT" class="streamItem_meta" href="/primaduna_/answers/144328500321"><time datetime="2017-12-20T09:16:50">about 21 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    But I tell you, he's mine.
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+    <div class="streamItem_visual">  <div><a data-action="ImageOpen" data-url="https://akphoto1.ask.fm/2d0/c7a1a/d60c/407f/8ad7/65f41b1413f5/large/160982.png" href="/primaduna_/answers/144328500321/photo"><img onerror="this.src='https://static.ask.fm/assets/no-image-0b30a778d766680b5d174333c571a1fa4189ffded12bc17da057d8de0900f032.png';this.onerror=''" src="https://akphoto1.ask.fm/2d0/c7a1a/d60c/407f/8ad7/65f41b1413f5/original/160982.png"></a></div>
+</div>
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/primaduna_/answers/144328500321/likes" href="#"></a>
+
+  <a class="counter" href="/primaduna_/answers/144328500321">19</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/primaduna_/answers/144328500321/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Pap a handsome guy hihi&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Pap a handsome guy hihi&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/primaduna_/answers/144328500321/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Pap of you</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/09f/b1b5c/114c/4e69/b4f0/565e95d989a4/thumb/804672.jpg)" class="userAvatar" href="/KyleChuables"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-76 userOnline" href="/KyleChuables">Stephen Kyle Chua</a></span>
+        <a title="December 20, 2017 14:13:43 GMT" class="streamItem_meta" href="/KyleChuables/answers/145177249939"><time datetime="2017-12-20T14:13:43">about 16 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Hi senpai.
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+    <div class="streamItem_visual">  <div><a data-action="ImageOpen" data-url="https://akphoto1.ask.fm/467/acc48/7ff6/418e/9dbe/e6c02507cfc3/large/165791.png" href="/KyleChuables/answers/145177249939/photo"><img onerror="this.src='https://static.ask.fm/assets/no-image-0b30a778d766680b5d174333c571a1fa4189ffded12bc17da057d8de0900f032.png';this.onerror=''" src="https://akphoto1.ask.fm/467/acc48/7ff6/418e/9dbe/e6c02507cfc3/original/165791.png"></a></div>
+</div>
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/KyleChuables/answers/145177249939/likes" href="#"></a>
+
+  <a class="counter" href="/KyleChuables/answers/145177249939">5</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/KyleChuables/answers/145177249939/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Pap of you&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Pap of you&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/KyleChuables/answers/145177249939/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>KAPUY SCROLL² NO?</h2>
+    <a class="author" href="/Bengggkaaat"><span class="userAvatar-mini" style="background-image:url(https://akimg0.ask.fm/2af/8abe0/27ec/4ac9/8b09/e3de1dc38dc6/thumb/185156.png)"></span><span class="author_username">악몽 혼돈</span></a>
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/1ee/47826/f7a4/4bfa/a413/1f050010b81b/thumb/108918.jpg)" class="userAvatar" href="/sasutorechan"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-119" href="/sasutorechan">нanѕ</a></span>
+        <a title="December 20, 2017 15:48:41 GMT" class="streamItem_meta" href="/sasutorechan/answers/143710268952"><time datetime="2017-12-20T15:48:41">about 15 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    I get the "scroll" and "no" part.
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/sasutorechan/answers/143710268952/likes" href="#"></a>
+
+  <a class="counter" href="/sasutorechan/answers/143710268952">7</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/sasutorechan/answers/143710268952/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;KAPUY SCROLL² NO?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;KAPUY SCROLL² NO?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/sasutorechan/answers/143710268952/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Can i ask your age .</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/4ac/0f5ba/6e2c/45bf/a92e/076b910cf171/thumb/173204.jpg)" class="userAvatar" href="/abbooody22"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="" dir="rtl" href="/abbooody22">عبيد</a></span>
+        <a title="December 20, 2017 16:39:04 GMT" class="streamItem_meta" href="/abbooody22/answers/145588132112"><time datetime="2017-12-20T16:39:04">about 14 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    You can ask me my age it’s ok to ask nobody going to killing you 👀
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/abbooody22/answers/145588132112/likes" href="#"></a>
+
+  <a class="counter" href="/abbooody22/answers/145588132112">7</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/abbooody22/answers/145588132112/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Can i ask your age .&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Can i ask your age .&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/abbooody22/answers/145588132112/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+    <section class="askfm-ad-slot askfm-ad-slot-mobile-stream-2 rsp-eql-mobile" data-url="/ads/822" data-count-url="/home/track?ad_block_slot=822"><iframe src="javascript:false" name="ifm5665691064034477" style="border: 0px; width: 0px; height: 0px;" height="250" width="300"></iframe></section>
+
+
+    <section class="askfm-ad-slot askfm-ad-slot-desktop-stream-2 rsp-gte-tablet" data-url="/ads/922" data-count-url="/home/track?ad_block_slot=922"><iframe src="javascript:false" name="ifm11500007563247072" style="border:0;width:0;height:0"></iframe></section>
+
+
+
+
+<article class="item streamItem streamItem-answer">
+  <header class="streamItem_header">
+    <h2>Love vs Money🌹💰</h2>
+  </header>
+
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/b42/c6d71/2911/48d7/b4c5/6844c48dc7d4/thumb/808257.jpg)" class="userAvatar" href="/emmiikonopka"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-80 userVerified" href="/emmiikonopka">Kaba</a></span>
+        <a title="December 20, 2017 13:46:47 GMT" class="streamItem_meta" href="/emmiikonopka/photopolls/79296490"><time datetime="2017-12-20T13:46:47">about 17 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_visual photopoll">
+    <div class="choices choice-1" id="option-158592490" style="background-image:url(https://akpoll0.ask.fm/494/5efc1/8939/43ea/b562/86f8e2fb2a4a/original/164749.jpg)" data-option-id="158592490">
+
+  <a class="util-overlay-transparent" data-action="ImagesOpen" data-urls="{&quot;https://akpoll0.ask.fm/494/5efc1/8939/43ea/b562/86f8e2fb2a4a/thumb/164749.jpg&quot;:&quot;https://akpoll0.ask.fm/494/5efc1/8939/43ea/b562/86f8e2fb2a4a/original/164749.jpg&quot;,&quot;https://akpoll0.ask.fm/b4c/7969b/5021/408d/b437/c5c6e40a0411/thumb/165164.jpg&quot;:&quot;https://akpoll0.ask.fm/b4c/7969b/5021/408d/b437/c5c6e40a0411/original/165164.jpg&quot;}" data-open-url="https://akpoll0.ask.fm/494/5efc1/8939/43ea/b562/86f8e2fb2a4a/thumb/164749.jpg" href="/emmiikonopka/photopolls/79296490"></a>
+
+          <a class="icon-like vote" title="Like" data-action="PhotopollVote" data-url="/account/photopoll-vote/158592490" href="#"></a>
+
+      <div class="ratingBlock">
+        <div class="rating icon-like"></div>
+      </div>
+</div>
+
+    <div class="choices choice-2" id="option-158592746" style="background-image:url(https://akpoll0.ask.fm/b4c/7969b/5021/408d/b437/c5c6e40a0411/original/165164.jpg)" data-option-id="158592746">
+
+  <a class="util-overlay-transparent" data-action="ImagesOpen" data-urls="{&quot;https://akpoll0.ask.fm/494/5efc1/8939/43ea/b562/86f8e2fb2a4a/thumb/164749.jpg&quot;:&quot;https://akpoll0.ask.fm/494/5efc1/8939/43ea/b562/86f8e2fb2a4a/original/164749.jpg&quot;,&quot;https://akpoll0.ask.fm/b4c/7969b/5021/408d/b437/c5c6e40a0411/thumb/165164.jpg&quot;:&quot;https://akpoll0.ask.fm/b4c/7969b/5021/408d/b437/c5c6e40a0411/original/165164.jpg&quot;}" data-open-url="https://akpoll0.ask.fm/b4c/7969b/5021/408d/b437/c5c6e40a0411/thumb/165164.jpg" href="/emmiikonopka/photopolls/79296490"></a>
+
+          <a class="icon-like vote" title="Like" data-action="PhotopollVote" data-url="/account/photopoll-vote/158592746" href="#"></a>
+
+      <div class="ratingBlock">
+        <div class="rating icon-like"></div>
+      </div>
+</div>
+
+    <div class="vs">vs</div>
+  </div>
+
+  <div class="streamItem_footer popover_container">
+    <a class="voteCount" href="/emmiikonopka/photopolls/79296490">545 votes</a>
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/emmiikonopka/photopolls/79296490/flag" href="#">Report post</a></nav>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/emmiikonopka/photopolls/79296490/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer shorten">
+
+
+  <header class="streamItem_header">
+    <h2>How can you know the difference between a lie and the truth?</h2>
+    <a class="author" href="/NoraFluent"><span class="userAvatar-mini" style="background-image:url(https://akimg0.ask.fm/c4a/d4458/b196/4321/9108/c6e321dc59da/thumb/692038.png)"></span><span class="author_username">⋞ NORA ⋟</span></a>
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/8b2/23f1c/a992/41b3/ab12/b4bb1067d71b/thumb/4160087.jpg)" class="userAvatar" href="/Zwezah"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-67 userOnline" href="/Zwezah">Alyazi</a></span>
+        <a title="December 20, 2017 10:00:02 GMT" class="streamItem_meta" href="/Zwezah/answers/144453452896"><time datetime="2017-12-20T10:00:02">about 21 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    I just talk to the person who said that lie/truth. I ask them in unexpected time and usually I check the person’s face expression. When lying they make it sooo obvious 😂! Even if they’re trying to hide it, I can still catch their lies. But here are some other clues:<hr>1. If they’re usually loud they would be calm when lying.<br>2. If you keep asking them questions they’ll try to avoid it or they wouldn’t know how to answer.<br>3. When someone’s lie they aren’t that comfortable whereas the one who says the truth would be so relaxed and answering your questions comfortably. <br>4. If you’re not sure, keep asking questions and observe every single move, face expression and their words. <br>5. The eyes always tell the truth 😂, check their eyes to see how confident they’re, it’s really fun 😂. <br>6. Hear their voice very well, when they say “Aaaa, umm....” it wouldn’t be the normal “umm” it’s the nervous one 😂😂! <br>.<br>.<br>There’re a lot of liars in my surroundings, some are even professional liars 😂💔💔. I’ve dealt with a lot of them but in the end people still manage to lie to me then they keep laughing cz I trusted their words 😒💔 (and that’s because they lied behind the screen not face to face).
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+    <div class="streamItem_visual">  <div><a data-action="ImageOpen" data-url="https://akphoto1.ask.fm/039/7c9fe/caba/4bc5/b8db/bb85f6176df3/large/161475.jpg" href="/Zwezah/answers/144453452896/photo"><img onerror="this.src='https://static.ask.fm/assets/no-image-0b30a778d766680b5d174333c571a1fa4189ffded12bc17da057d8de0900f032.png';this.onerror=''" src="https://akphoto1.ask.fm/039/7c9fe/caba/4bc5/b8db/bb85f6176df3/original/161475.jpg"></a></div>
+</div>
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/Zwezah/answers/144453452896/likes" href="#"></a>
+
+  <a class="counter" href="/Zwezah/answers/144453452896">6</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/Zwezah/answers/144453452896/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;How can you know the difference between a lie and the truth?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;How can you know the difference between a lie and the truth?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/Zwezah/answers/144453452896/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Movie spam suggested by <a dir="ltr" href="/mymountainofdreams">@mymountainofdreams</a> What are some of your all time favorite movies?</h2>
+    <a class="author userVerified" href="/angie_caroline"><span class="userAvatar-mini" style="background-image:url(https://akimg0.ask.fm/07c/58870/fe91/4ee7/8298/70ac7bb2ca51/thumb/6986.jpg)"></span><span class="author_username">Angie ❤️</span></a>
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/assets2/156/787/194/880/thumb/file.jpg)" class="userAvatar" href="/HeyGuysWantStuffJustAsk"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="" href="/HeyGuysWantStuffJustAsk">eggsy</a></span>
+        <a title="December 20, 2017 15:46:51 GMT" class="streamItem_meta" href="/HeyGuysWantStuffJustAsk/answers/145360814986"><time datetime="2017-12-20T15:46:51">about 15 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Baby Driver<hr>Shawshank Redemption <hr>Jurassic Park <hr>Elf <hr>Wayne’s World
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/HeyGuysWantStuffJustAsk/answers/145360814986/likes" href="#"></a>
+
+  <a class="counter" href="/HeyGuysWantStuffJustAsk/answers/145360814986">8</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/HeyGuysWantStuffJustAsk/answers/145360814986/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Movie spam suggested by @mymountainofdreams What are some of your all time favorite movies?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Movie spam suggested by @mymountainofdreams What are some of your all time favorite movies?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/HeyGuysWantStuffJustAsk/answers/145360814986/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>What are your hobbies?</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/6f5/27732/aa09/40b4/8b21/231233ee7da9/thumb/654710.jpg)" class="userAvatar" href="/AhmedRagab149"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-22" href="/AhmedRagab149">Ahmed Ragab</a></span>
+        <a title="December 20, 2017 16:40:14 GMT" class="streamItem_meta" href="/AhmedRagab149/answers/144861138875"><time datetime="2017-12-20T16:40:14">about 14 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Singing, poetry, playing football and gym
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/AhmedRagab149/answers/144861138875/likes" href="#"></a>
+
+  <a class="counter" href="/AhmedRagab149/answers/144861138875">12</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/AhmedRagab149/answers/144861138875/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;What are your hobbies?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;What are your hobbies?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/AhmedRagab149/answers/144861138875/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Make a aesthetic for your best friend.</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/fd9/3a712/15f8/4f4a/81df/530ca572c743/thumb/141732.jpg)" class="userAvatar" href="/Heidi_Copeland"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-22" href="/Heidi_Copeland">Heidi Copeland</a></span>
+        <a title="December 20, 2017 16:24:19 GMT" class="streamItem_meta" href="/Heidi_Copeland/answers/143928720962"><time datetime="2017-12-20T16:24:19">about 14 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    <a dir="ltr" href="/shesglitterandgold">@shesglitterandgold</a>
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+    <div class="streamItem_visual">  <div><a data-action="ImageOpen" data-url="https://akphoto1.ask.fm/f92/8f031/cae6/42ea/8925/8fd71b8d03e6/large/169058.jpg" href="/Heidi_Copeland/answers/143928720962/photo"><img onerror="this.src='https://static.ask.fm/assets/no-image-0b30a778d766680b5d174333c571a1fa4189ffded12bc17da057d8de0900f032.png';this.onerror=''" src="https://akphoto1.ask.fm/f92/8f031/cae6/42ea/8925/8fd71b8d03e6/original/169058.jpg"></a></div>
+</div>
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/Heidi_Copeland/answers/143928720962/likes" href="#"></a>
+
+  <a class="counter" href="/Heidi_Copeland/answers/143928720962">26</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/Heidi_Copeland/answers/143928720962/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Make a aesthetic for your best friend.&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Make a aesthetic for your best friend.&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/Heidi_Copeland/answers/143928720962/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>What movie quotes do you use on a regular basis?</h2>
+    <a class="author" href="/FarzanaAhsan869"><span class="userAvatar-mini" style="background-image:url(https://akimg0.ask.fm/e39/d9e9a/51c6/4ed6/a5e1/bfa406709b9e/thumb/119652.png)"></span><span class="author_username">Farzana Ahsan</span></a>
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/b55/77a1b/4630/42e4/9943/c614ecce83e5/thumb/27027.png)" class="userAvatar" href="/xawan_shko_"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-75 userVerified" href="/xawan_shko_">#Fato</a></span>
+        <a title="December 20, 2017 13:29:13 GMT" class="streamItem_meta" href="/xawan_shko_/answers/144894453627"><time datetime="2017-12-20T13:29:13">about 17 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    You can't look high , if you are look high all time  ...<br>"snoop dog"<br>one of his songs ...
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/xawan_shko_/answers/144894453627/likes" href="#"></a>
+
+  <a class="counter" href="/xawan_shko_/answers/144894453627">50</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/xawan_shko_/answers/144894453627/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;What movie quotes do you use on a regular basis?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;What movie quotes do you use on a regular basis?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/xawan_shko_/answers/144894453627/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer">
+  <header class="streamItem_header">
+    <h2><a dir="ltr" href="/Intellectual_gold_Versatile">@Intellectual_gold_Versatile</a> / <a dir="ltr" href="/id273955278">@id273955278</a> </h2>
+  </header>
+
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/53e/97d9f/3fa2/4a69/86eb/113c2f171c22/thumb/172290.jpg)" class="userAvatar" href="/Ane4ka_01"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="" href="/Ane4ka_01">аня.</a></span>
+        <a title="December 20, 2017 17:57:35 GMT" class="streamItem_meta" href="/Ane4ka_01/photopolls/79322863"><time datetime="2017-12-20T17:57:35">about 13 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_visual photopoll">
+    <div class="choices choice-1" id="option-158645231" style="background-image:url(https://akpoll0.ask.fm/be1/a0c22/20f0/42c7/8ebd/a5a5ce6843d9/original/171405.jpg)" data-option-id="158645231">
+
+  <a class="util-overlay-transparent" data-action="ImagesOpen" data-urls="{&quot;https://akpoll0.ask.fm/be1/a0c22/20f0/42c7/8ebd/a5a5ce6843d9/thumb/171405.jpg&quot;:&quot;https://akpoll0.ask.fm/be1/a0c22/20f0/42c7/8ebd/a5a5ce6843d9/original/171405.jpg&quot;,&quot;https://akpoll0.ask.fm/b8b/e82d4/3d5c/4dd4/a1eb/844cfe7e4ba5/thumb/171433.jpg&quot;:&quot;https://akpoll0.ask.fm/b8b/e82d4/3d5c/4dd4/a1eb/844cfe7e4ba5/original/171433.jpg&quot;}" data-open-url="https://akpoll0.ask.fm/be1/a0c22/20f0/42c7/8ebd/a5a5ce6843d9/thumb/171405.jpg" href="/Ane4ka_01/photopolls/79322863"></a>
+
+          <a class="icon-like vote" title="Like" data-action="PhotopollVote" data-url="/account/photopoll-vote/158645231" href="#"></a>
+
+      <div class="ratingBlock">
+        <div class="rating icon-like"></div>
+      </div>
+</div>
+
+    <div class="choices choice-2" id="option-158645487" style="background-image:url(https://akpoll0.ask.fm/b8b/e82d4/3d5c/4dd4/a1eb/844cfe7e4ba5/original/171433.jpg)" data-option-id="158645487">
+
+  <a class="util-overlay-transparent" data-action="ImagesOpen" data-urls="{&quot;https://akpoll0.ask.fm/be1/a0c22/20f0/42c7/8ebd/a5a5ce6843d9/thumb/171405.jpg&quot;:&quot;https://akpoll0.ask.fm/be1/a0c22/20f0/42c7/8ebd/a5a5ce6843d9/original/171405.jpg&quot;,&quot;https://akpoll0.ask.fm/b8b/e82d4/3d5c/4dd4/a1eb/844cfe7e4ba5/thumb/171433.jpg&quot;:&quot;https://akpoll0.ask.fm/b8b/e82d4/3d5c/4dd4/a1eb/844cfe7e4ba5/original/171433.jpg&quot;}" data-open-url="https://akpoll0.ask.fm/b8b/e82d4/3d5c/4dd4/a1eb/844cfe7e4ba5/thumb/171433.jpg" href="/Ane4ka_01/photopolls/79322863"></a>
+
+          <a class="icon-like vote" title="Like" data-action="PhotopollVote" data-url="/account/photopoll-vote/158645487" href="#"></a>
+
+      <div class="ratingBlock">
+        <div class="rating icon-like"></div>
+      </div>
+</div>
+
+    <div class="vs">vs</div>
+  </div>
+
+  <div class="streamItem_footer popover_container">
+    <a class="voteCount" href="/Ane4ka_01/photopolls/79322863">48 votes</a>
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/Ane4ka_01/photopolls/79322863/flag" href="#">Report post</a></nav>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/Ane4ka_01/photopolls/79322863/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>“May the stars carry your sadness away.
+May the flowers fill your heart with beauty.
+And may hope forever wipe off your tears.
+And above all, may silence make you strong.”
+
+I just felt that the quote is suitable for you ❤</h2>
+    <a class="author" href="/Gehad_Khalid"><span class="userAvatar-mini" style="background-image:url(https://akimg0.ask.fm/8e3/8ecad/9d33/4f93/8be7/3bb02a7c7a58/thumb/167494.png)"></span><span class="author_username">Gehad Khalid</span></a>
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/c9e/efb55/da06/4e56/b966/e05aa7f9d3e8/thumb/115091.png)" class="userAvatar" href="/PrettyFlower2"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-29" href="/PrettyFlower2">Nadia Lotfy</a></span>
+        <a title="December 20, 2017 06:03:38 GMT" class="streamItem_meta" href="/PrettyFlower2/answers/146819990476"><time datetime="2017-12-20T06:03:38">yesterday</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    I can't express how much I loved these impeccable words from an impeccably beautiful soul as yours ❤❤
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/PrettyFlower2/answers/146819990476/likes" href="#"></a>
+
+  <a class="counter" href="/PrettyFlower2/answers/146819990476">5</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/PrettyFlower2/answers/146819990476/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;“May the stars carry your sadness away. \nMay the flowers fill your heart with beauty.\nAnd may hope forever wipe off your tears.\nAnd above all, may silence make you strong.”\n\nI just felt that the quote is suitable for you ❤&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;“May the stars carry your sadness away. \nMay the flowers fill your heart with beauty.\nAnd may hope forever wipe off your tears.\nAnd above all, may silence make you strong.”\n\nI just felt that the quote is suitable for you ❤&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/PrettyFlower2/answers/146819990476/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>what's your dream ?</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/7a6/365e9/6d09/4e03/8f9e/c21ce1a3c2a0/thumb/179550.png)" class="userAvatar" href="/Reebayy"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-114" href="/Reebayy">Areebaa.</a></span>
+        <a title="December 20, 2017 23:03:26 GMT" class="streamItem_meta" href="/Reebayy/answers/144198229027"><time datetime="2017-12-20T23:03:26">about 8 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    To have a man like this☹💙
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+    <div class="streamItem_visual">  <div><a data-action="ImageOpen" data-url="https://akphoto1.ask.fm/90b/a44e3/b4fd/48a2/b02c/2120c3ba4b85/large/179774.png" href="/Reebayy/answers/144198229027/photo"><img onerror="this.src='https://static.ask.fm/assets/no-image-0b30a778d766680b5d174333c571a1fa4189ffded12bc17da057d8de0900f032.png';this.onerror=''" src="https://akphoto1.ask.fm/90b/a44e3/b4fd/48a2/b02c/2120c3ba4b85/original/179774.png"></a></div>
+</div>
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/Reebayy/answers/144198229027/likes" href="#"></a>
+
+  <a class="counter" href="/Reebayy/answers/144198229027">40</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/Reebayy/answers/144198229027/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;what's your dream ?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;what's your dream ?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/Reebayy/answers/144198229027/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>Height of laziness? 💯</h2>
+    <a class="author userVerified" href="/Kashifqureshi11"><span class="userAvatar-mini" style="background-image:url(https://akimg0.ask.fm/d67/7578b/7956/43ea/be5a/dc738f1e1266/thumb/811827.jpg)"></span><span class="author_username">Kaaaaash'IF</span></a>
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/1c8/4e15d/702f/4884/ad0c/04615557db91/thumb/4823985.jpg)" class="userAvatar" href="/Maheera28"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-83 userVerified" href="/Maheera28">Little Panda</a></span>
+        <a title="December 20, 2017 16:41:39 GMT" class="streamItem_meta" href="/Maheera28/answers/143850914585"><time datetime="2017-12-20T16:41:39">about 14 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    Just messaged my brother to come down and pass me the remote although it’s right in front of me on the table😂not even exaggerating
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/Maheera28/answers/143850914585/likes" href="#"></a>
+
+  <a class="counter" href="/Maheera28/answers/143850914585">59</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/Maheera28/answers/143850914585/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Height of laziness? 💯&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;Height of laziness? 💯&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>I want to be like ur puppy please 👑❤️🙈🙈?</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/de6/d2d3d/f0cd/48d1/806a/d870196ee079/thumb/577150.png)" class="userAvatar" href="/daintybumblebee"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="userMood userMood-119" href="/daintybumblebee">m a d e l i n e</a></span>
+        <a title="December 20, 2017 20:03:21 GMT" class="streamItem_meta" href="/daintybumblebee/answers/145486422968"><time datetime="2017-12-20T20:03:21">about 11 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    I have 3 already, ty though
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+    <div class="streamItem_visual">  <div><a data-action="ImageOpen" data-url="https://akphoto1.ask.fm/097/0d79b/6010/4dde/b5c8/01251467e311/large/175027.png" href="/daintybumblebee/answers/145486422968/photo"><img onerror="this.src='https://static.ask.fm/assets/no-image-0b30a778d766680b5d174333c571a1fa4189ffded12bc17da057d8de0900f032.png';this.onerror=''" src="https://akphoto1.ask.fm/097/0d79b/6010/4dde/b5c8/01251467e311/original/175027.png"></a></div>
+</div>
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/daintybumblebee/answers/145486422968/likes" href="#"></a>
+
+  <a class="counter" href="/daintybumblebee/answers/145486422968">12</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/daintybumblebee/answers/145486422968/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;I want to be like ur puppy please 👑❤️🙈🙈?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;I want to be like ur puppy please 👑❤️🙈🙈?&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/daintybumblebee/answers/145486422968/share" href="#"></a>
+  </div>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<article class="item streamItem streamItem-answer ">
+
+
+  <header class="streamItem_header">
+    <h2>-- another girl crush.</h2>
+
+</header>
+  <div class="streamItem_properties">
+      <div class="streamItem_avatar"><a style="background-image:url(https://akimg0.ask.fm/37f/2b9d3/66c6/4c7c/b91c/85b8f19e076a/thumb/754360.jpg)" class="userAvatar" href="/serialkills"></a></div>
+      <div class="streamItem_details">
+        <span class="streamItem_meta"><a class="" href="/serialkills">horror soul.</a></span>
+        <a title="December 20, 2017 13:41:59 GMT" class="streamItem_meta" href="/serialkills/answers/143709436200"><time datetime="2017-12-20T13:41:59">about 17 hours ago</time></a>
+      </div>
+  </div>
+
+  <div class="streamItem_content">
+    That angel called Amber Laura Heard.
+    <p class="readMore">
+      <a class="button" data-action="ReadMore" href="#">View more</a>
+    </p>
+  </div>
+
+
+  <div class="streamItem_footer popover_container">
+    <div class="heartButton">
+    <a class="icon-like" title="Like" data-action="AnswerLikeToggle" data-url="/serialkills/answers/143709436200/likes" href="#"></a>
+
+  <a class="counter" href="/serialkills/answers/143709436200">30</a>
+</div>
+
+    <a title="More" class="popover_container icon-more streamItem_option" data-action="PopoverOpen" href="#"></a><nav class="popover right" container_class="streamItem_option" style="display:none"><a class="icon-flag" data-action="PopupOpen" data-url="/serialkills/answers/143709436200/flag" href="#">Report post</a></nav>
+    <a class="rsp-lte-tablet streamItem_option icon-reask" data-action="ButtonPostOnce" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;-- another girl crush.&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a class="rsp-eql-desktop streamItem_option icon-reask" data-action="PopupOpen" data-url="/account/ask-friends" data-method="put" data-title="Re-ask the question" data-params="{&quot;question[question_text]&quot;:&quot;-- another girl crush.&quot;,&quot;reask&quot;:true}" title="Re-ask the question" href="#"></a>
+    <a title="Share now" class="streamItem_option icon-share" data-action="PopupOpen" data-url="/serialkills/answers/143709436200/share" href="#"></a>
+  </div>
+
+</article>
+</div><a class="item-page-next loader" data-action="ItemsNext" data-params="{&quot;no_prev_link&quot;:true}" href="/account/discover?older=77">Next</a>
+      </div>
+
+        <div class="emptyResults" style="display:none">
+    <p>It’s more fun with friends!</p>
+    <a class="btn-primary icon-add-friend" href="/account/friends/social">Find friends</a>
+  </div>
+
+  <div class="emptyResults" style="display:none">
+    <p>Share your profile with friends to get more questions</p>
+    <a class="btn-primary icon-share" data-action="PopupOpen" data-url="/account/share-profile" href="#">Share your profile</a>
+  </div>
+
+
+  </section>
+
+
+        </div>
+          <aside class="rsp-eql-desktop side-column" style="">
+            <section class="sticky-anchor">
+
+
+            </section>
+            <div data-stick-to=".sticky-anchor" class="" style="width: 300px; top: 0px;">
+              <section class="askfm-ad-slot askfm-ad-slot-side " data-url="/ads/302" data-count-url="/home/track?ad_block_slot=302"><iframe src="javascript:false" name="ifm07157202804116425" style="border:0;width:0;height:0"></iframe></section>
+              <footer>
+  <nav class="siteLinks">
+    <a target="_blank" rel="noopener" href="https://about.ask.fm?lang=en">About ASKfm</a>
+    <a target="_blank" rel="noopener" href="https://about.ask.fm/terms/?lang=en">Terms of use</a>
+    <a target="_blank" rel="noopener" href="https://safety.ask.fm?lang=en">Safety center</a>
+    <a target="_blank" rel="noopener" href="https://about.ask.fm/privacy-policy/?lang=en">Privacy policy</a>
+    <a target="_blank" rel="noopener" href="http://support.ask.fm?lang=en">Help</a>
+    <a target="_blank" rel="noopener" href="https://about.ask.fm/cookie-policy/?lang=en">Cookies policy</a>
+  </nav>
+  <nav class="social-links">
+  <a class="icon-askfm-inverse" target="_blank" href="https://ask.fm/askfm"></a>
+  <a class="icon-facebook" target="_blank" rel="noopener" href="https://www.facebook.com/askfmpage"></a>
+  <a class="icon-instagram" target="_blank" rel="noopener" href="https://instagram.com/askfm"></a>
+  <a class="icon-twitter" target="_blank" rel="noopener" href="https://twitter.com/askfm"></a>
+  <a class="icon-vkontakte" target="_blank" rel="noopener" href="https://vk.com/askfm"></a>
+</nav>
+
+  <div class="languageBox">
+    Language: <a class="language " title="Choose language" data-action="PopupOpen" data-url="/home/languages" href="#">English</a>
+  </div>
+  <div class="copyright">© Ask.fm 2017</div>
+</footer>
+
+            </div>
+          </aside>
+      </div>
+</main>
+      <div class="rsp-eql-mobile askfm-ad-slot-bottom-container">
+        <section class="askfm-ad-slot askfm-ad-slot-bottom " data-url="/ads/502" data-count-url="/home/track?ad_block_slot=502"><iframe src="javascript:false" name="ifm2659814932567708" style="border:0;width:0;height:0"></iframe></section>
+      </div>
+
+
+
+
+
+
+
+<div class="lightbox_overlay util-vcontainer">  <div class="util-vcenter">    <section class="lightbox ">
+<div style="display:none" class="flash-message notice">
+  <p class="util-relative ">
+    <a href="" class="icon-close" data-action="FlashHide"></a>
+
+</p></div>
+<div class="lightbox_content lightbox_content-composer">
+
+
+<header class="pageTitle icon-shoutout-stroke">  Shoutout
+  </header>
+
+<form id="askForm" autocomplete="off" class="new_question" data-action="FormXHRSubmit" action="/account/shoutout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="r8Pn5228Dzm6XXzgA7JFPB5wwisx75kvWwmF0uXQXdx4Q4WOi5enGUybpgYiGAKcaBdScwEmjjIzKO1w4lTTbA==">
+
+
+  <div class="question">
+    <grammarly-ghost spellcheck="false"><div data-id="4b3794f7-955d-1be4-c619-67153dd9b766" data-gramm_id="4b3794f7-955d-1be4-c619-67153dd9b766" data-gramm="gramm" data-gramm_editor="true" class="gr_ver_2" gramm="true" contenteditable="true" style="position: absolute; color: transparent; overflow: hidden; white-space: pre-wrap; border-radius: 0px; box-sizing: content-box; height: 80px; width: 668px; margin: 10px 0px 0px 10px; padding: 0px; z-index: 0; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); top: 0px; left: 0px;"><span style="display: inline-block; line-height: 22px; color: transparent; overflow: hidden; text-align: left; float: initial; clear: none; box-sizing: border-box; vertical-align: baseline; white-space: pre-wrap; width: 100%; margin: 0px; padding: 0px; border: 0px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 16px; font-family: ProximaNova, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; letter-spacing: normal; text-shadow: none; height: 80px;"></span><br></div></grammarly-ghost><textarea placeholder="Ask people nearby…" autofocus="autofocus" data-counter=".optionsBar-counter" data-limit="300" data-atcomplete="/account/friends/autocomplete" name="question[question_text]" id="question_question_text" data-gramm="true" data-txt_gramm_id="4b3794f7-955d-1be4-c619-67153dd9b766" data-gramm_id="4b3794f7-955d-1be4-c619-67153dd9b766" spellcheck="false" data-gramm_editor="true" style="z-index: auto; position: relative; line-height: 22px; font-size: 16px; transition: none; background: transparent !important;"></textarea><grammarly-btn><div class="_1BN1N Kzi1t _2DJZN" style="z-index: 2; transform: translate(207.813px, 60px);"><div class="_1HjH7"><div title="Protected by Grammarly" class="_3qe6h">&nbsp;</div></div></div></grammarly-btn>
+  </div>
+
+  <div class="optionsBar">
+    <div class="optionsBar-buttonWrap">
+      <button name="button" type="submit" class="btn-primary icon-send"></button>
+      <div class="optionsBar-option optionsBar-counter rsp-gte-tablet">300</div>
+    </div>
+
+    <input name="question[question_type]" type="hidden" value="shoutout"><input class="btn-toggle-mini" data-action="MassAskToggleAnonymous" type="checkbox" value="anonshoutout" checked="checked" name="question[question_type]" id="question_question_type">
+    <label for="question_question_type"><span>Ask anonymously</span></label>
+
+<input type="checkbox" name="show_online_status" id="show_online_status_popup" value="1" class="btn-toggle-mini" data-action="ToggleOnlineStatus" data-url="/account/settings/online" checked="checked">
+<label for="show_online_status_popup">
+  <span data-text-online="Appear online" data-text-offline="Appear invisible">Appear online</span>
+</label>
+  </div>
+
+</form>
+</div>
+
+<a href="#" class="lightbox_close" data-action="PopupClose"></a></section>  </div></div></body>

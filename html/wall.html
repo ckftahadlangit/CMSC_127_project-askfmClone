@@ -45,15 +45,6 @@ b="";for(f in k)b+=f+"="+encodeURIComponent(k[f])+"&";(new Image).src="/home/jse
         <a title="Select your activity" class="icon-create-content" data-action="MenuToggle" data-class="open" data-target="#content-popover-menu" href="#"></a><nav id="content-popover-menu" class="popover popover-menu content-menu" style="display:none"><a class="icon-photopoll-inverse icon util-clearfix" href="/account/photopoll-friends">Create poll</a><a class="icon-ask-question icon util-clearfix" href="/account/ask-friends">Ask a Question</a><a class="icon-shoutout icon util-clearfix shoutout-link" href="/account/shoutout">Shoutout<span class="icon-shoutout-lock"></span></a></nav>
 </nav>
 
-<!-- Home
-Profile
-Messages
-<ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="#">Home</a></li>
-  <li role="presentation"><a href="#">Profile</a></li>
-  <li role="presentation"><a href="#">Messages</a></li>
-</ul> -->
-
   </section>
 </div>
 
@@ -100,17 +91,18 @@ Messages
 <section class="askBox section rsp-gte-tablet">
 
   <header class="askBox_header">
-    <div class="icon-ask-question question-link">Question</div>    <a class="icon-photopoll photopoll-link" data-action="PopupOpen" data-url="/account/photopoll-friends" href="#">Photo poll</a>    <a data-action="PopupOpen" data-url="/account/shoutout" class="icon-shoutout-stroke shoutout-link" href="#">
-      Shoutout
+    <div class="icon-ask-question question-link">Question</div>
+    <a class="icon-photopoll photopoll-link" data-action="PopupOpen" href="">PhotoPoll</a>
+    <a data-action="PopupOpen"  class="icon-shoutout-stroke shoutout-link" href="#">
+      Shoutout!
       <span class="icon-shoutout-lock">
-
       </span>
 </a>  </header>
 
   <form id="askForm" data-action="PopupOpen" action="/account/ask-friends" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="wfqYc4I2eiWi7Iwa3LY4OZJw/JJpcyLVGo7I9yEmoWrXM+OT+j1lGxKKKT3vBHrIBckazVXjO3Yf+z6bEuYCkw==" />
 
       <div class="question">
-        <input placeholder="What, when, why… ask" data-counter=".optionsBar-counter" data-limit="300" data-atcomplete="/account/friends/autocomplete" type="text" name="question[question_text]" id="question_question_text" />
+        <input placeholder="ASK What, when, why." data-counter=".optionsBar-counter" data-limit="300" data-atcomplete="/account/friends/autocomplete" type="text" name="question[question_text]" id="question_question_text" />
       </div>
 
       <div class="optionsBar">
@@ -118,7 +110,7 @@ Messages
 
         <div class="optionsBar-option optionsBar-counter"></div>
         <input name="question[question_type]" type="hidden" value="user" /><input id="mini_question_anonymous" class="btn-toggle-mini" type="checkbox" value="anonymous" checked="checked" name="question[question_type]" />
-        <label for="mini_question_anonymous"><span>Ask anonymously</span></label>
+        <label for="mini_question_anonymous"><span>Ask anonymously!</span></label>
       </div>
 </form></section>
 
@@ -130,20 +122,20 @@ Messages
   <div class="tabBar feedTabBar_wrapper">
   <nav class="tabBar feedTabBar">
         <a class="active" href="/account/wall">Wall</a>
-        <a class="" data-poll-url="/account/discover/poll" href="/account/discover">Discover</a>
+        <a class="" href="/html/discover.html">Discover!</a>
   </nav>
 </div>
 
 </header>
 
         <div class="emptyResults" style="">
-    <p>It’s more fun with friends!</p>
-    <a class="btn-primary icon-add-friend" href="/account/friends/social">Find friends</a>
+    <!-- <p>It’s more fun with friends!</p> -->
+    <!-- <a class="btn-primary icon-add-friend" href="/account/friends/social">Find friends</a> -->
   </div>
 
   <div class="emptyResults" style="">
-    <p>Share your profile with friends to get more questions</p>
-    <a class="btn-primary icon-share" data-action="PopupOpen" data-url="/account/share-profile" href="#">Share your profile</a>
+    <!-- <p>Share your profile with friends to get more questions</p> -->
+    <!-- <a class="btn-primary icon-share" data-action="PopupOpen" data-url="/account/share-profile" href="#">Share your profile</a> -->
   </div>
 
 
