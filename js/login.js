@@ -9,6 +9,36 @@ var config = {
 };
 firebase.initializeApp(config);
 
-('#btnSend').on( 'click' ,function () {
-    console.log("dfdsfsdfsdfs")
+function redirect() {
+  console.log("sdsadasdasdasdasd")
+    window.location = "index.html"
+}
+function signIn(){
+    var succesfulLogin = true;
+    var username = document.getElementById('user_login').value.trim()
+    var password = document.getElementById('user_password').value
+    var email = "";
+    firebase.database().ref('accounts/'+username).once('value', function(snapshot) {
+        email = snapshot.child('email').val();
+    }).then(() => {
+      firebase.auth().signInWithEmailAndPassword(email, password).catch(function( error) {
+        succesfulLogin = false;
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        if (errorCode === 'auth/wrong-password') {
+          alert('Wrong password.');
+        } else {
+          alert(errorMessage);
+        }
+        console.log(error);
+      });
+    });
+};
+
+firebase.auth().onAuthStateChanged(user => {
+  console.log("Auth state changed")
+  if(user){
+    window.location = "wall.html"
+
+  }
 });
